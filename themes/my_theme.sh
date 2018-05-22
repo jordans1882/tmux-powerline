@@ -42,6 +42,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"earthquake 3 0" \
 		"pwd 89 211" \
     "taskwarrior 196 15" \
+    "pomodoro 17 15" \
 		#"macos_notification_count 29 255" \
 		#"mailcount 9 255" \
 		#"now_playing 234 37" \
