@@ -23,8 +23,8 @@ TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SEPARATOR=${TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SE
 
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
-		"tmux_session_info 114 234" \
-		"hostname 236 248" \
+		"tmux_session_info 78 234" \
+		"hostname 236 249" \
 		#"ifstat 30 255" \
 		#"ifstat_sys 30 255" \
 		#"lan_ip 24 255 ${TMUX_POWERLINE_SEPARATOR_RIGHT_THIN}" \
@@ -40,8 +40,8 @@ fi
 if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
 		#"earthquake 3 0" \
-		"pwd 114 234" \
-    "taskwarrior 204 234" \
+		"pwd 78 234" \
+    "taskwarrior 203 234" \
     "pomodoro 17 15" \
 		#"macos_notification_count 29 255" \
 		#"mailcount 9 255" \
